@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Git</title>
-</head>
+  </head>
 
-<style>
-    button{
-        background-color: aquamarine;
-        padding: 5px 10px;
-        border-radius: 20px;
-        display: flex;
-        margin: auto;
+  <style>
+    button {
+      background-color: aquamarine;
+      padding: 5px 10px;
+      border-radius: 20px;
+      display: flex;
+      margin: auto;
     }
-</style>
-<body>
+
+    button:hover {
+      background-color: aqua;
+    }
+  </style>
+  <body>
     <h1>Github</h1>
-    <button>ini button</button>
-    
-</body>
+    <button class="btn1">ini button</button>
+
+    <script>
+      const btn1 = document.querySelector(".btn1");
+
+      btn1.addEventListener("click", () => {
+        document.body.style.backgroundColor = "brown";
+      });
+    </script>
+  </body>
 </html>
