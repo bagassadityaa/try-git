@@ -1,0 +1,11 @@
+button {
+    background-color: aquamarine;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+  }
+
+  button:hover {
+    background-color: aqua;
+  }
